@@ -6,6 +6,22 @@ ignore:
     - tap > nyc > micromatch > snapdragon > base > cache-base > set-value:
         reason: no fix yet
         expires: '2020-02-18T07:09:56.505Z'
+  'npm:ejs:20161128':
+    - ejs-locals > ejs:
+        reason: no fix
+        expires: '2020-02-18T07:19:00.845Z'
+  'npm:ejs:20161130':
+    - ejs-locals > ejs:
+        reason: no fix
+        expires: '2020-02-18T07:19:00.845Z'
+  'npm:ejs:20161130-1':
+    - ejs-locals > ejs:
+        reason: no fix
+        expires: '2020-02-18T07:19:00.845Z'
+  'snyk:lic:npm:goof:GPL-2.0':
+    - '':
+        reason: no fix
+        expires: '2020-02-18T07:19:00.845Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:ms:20151024':
